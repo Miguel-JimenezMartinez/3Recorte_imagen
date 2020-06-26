@@ -12,7 +12,7 @@ corte=imagen[0:alto//2, 0:largo]           #Hacemos el corte, o mas bien la redi
 
 cv2.imwrite('imagen_recortada.jpg',corte)  #Usamos esta funcion para guardarla en jpg
 
-cv2.imshow("Imagen recortada", corte)      #Muestro la imagen
+#cv2.imshow("Imagen recortada", corte)      #Muestro la imagen
 
 cv2.waitKey(0) 
 
