@@ -14,6 +14,8 @@ cv2.imwrite('imagen_recortada.jpg',corte)  #Usamos esta funcion para guardarla e
 
 #cv2.imshow("Imagen recortada", corte)      #Muestro la imagen
 
+#Comentario hecho desde el server
+
 cv2.waitKey(0) 
 
 
